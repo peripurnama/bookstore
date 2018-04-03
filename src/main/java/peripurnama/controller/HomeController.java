@@ -19,7 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 
-	@GetMapping("/index")
+	@GetMapping("/")
 	public String index(Model model) {
 		return "index";
 	}

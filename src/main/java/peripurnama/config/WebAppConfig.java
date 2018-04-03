@@ -6,7 +6,8 @@ public class WebAppConfig extends AbstractAnnotationConfigDispatcherServletIniti
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return new Class[] {HibernateConfig.class};//, WebSecurityConfig.class
+//		return new Class[] {HibernateConfig.class};//, WebSecurityConfig.class
+		return null;
 	}
 
 	@Override
