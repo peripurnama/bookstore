@@ -1,4 +1,3 @@
-C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\config\SecurityWebApplicationInitializer.java
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\controller\HomeController.java
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\model\JenisKelamin.java
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\dao\UserDao.java
@@ -11,6 +10,5 @@ C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\dao\U
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\service\UserDetailsServiceImp.java
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\config\HibernateConfig.java
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\config\WebMvcConfig.java
-C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\config\WebSecurityConfig.java
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\service\UserServiceImp.java
 C:\Users\peripurnama\eclipse-workspace\bookstore\src\main\java\peripurnama\model\User.java
