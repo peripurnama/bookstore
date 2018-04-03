@@ -24,28 +24,6 @@ public class HomeController {
 		return "index";
 	}
 
-//	@GetMapping("/success")
-//	public String success(Model model, Principal principal) {
-//		if (principal != null) {
-//			model.addAttribute("message", "Hello: " + principal.getName());
-//			return "/success";
-//		}
-//		return "redirect:/";
-//	}
-//
-//	@GetMapping("/login")
-//	public String login(Model model) {
-//		return "login";
-//	}
-
-	// @RequestMapping(path = "/error")
-	// public Map<String, Object> handle(HttpServletRequest request) {
-	// Map<String, Object> map = new HashMap<String, Object>();
-	// map.put("status", request.getAttribute("javax.servlet.error.status_code"));
-	// map.put("reason", request.getAttribute("javax.servlet.error.message"));
-	// return map;
-	// }
-
 	@RequestMapping(value = "error", method = RequestMethod.GET)
 	public ModelAndView renderErrorPage(HttpServletRequest httpRequest) {
 
