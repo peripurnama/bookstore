@@ -1,0 +1,261 @@
+@charset "ISO-8859-1";
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* font-size: 100%; */
+	/* background-color: #f7f7f7; */
+}
+/* h1 {font-size: 2.5em}
+    h2 {font-size: 1.875em}
+    h3 {font-size: 1.5em}
+    h2 {font-size: 1.2em}
+    p {font-size: 1em} */
+.nopadding {
+	padding: 0;
+	margin: 0 auto;
+}
+/* #row1 {
+      background-color: aqua;
+    } */
+/* #row2-1 {
+      background-color: rgb(199, 199, 199);
+    } */
+/* #row2-2 {
+      background-color: rgb(226, 226, 226);
+    } */
+/* #row4 {
+      background-color: rgb(226, 226, 226);
+    } */
+/* #row4-1 {
+      background-color: rgb(184, 184, 184);
+    } */
+/* #row4-2 {
+      background-color: rgb(221, 221, 221);
+    } */
+#row1-1, #row1-2, #row2 {
+	margin-bottom: 10px;
+}
+
+#row5 {
+	background-color: #f7f7f7;
+}
+
+/* Style Menu 1 atas  */
+#row1-1 {
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.menu1-right {
+	position: absolute;
+	top: 0;
+	right: 6px;
+}
+
+.menu1-right a, .menu1-left a {
+	display: inline-block;
+	padding: 6px 12px;
+}
+/* akhir style menu1-left dan menu1-right */
+.logo {
+	width: 100%;
+}
+
+.logo img {
+	padding: 10px;
+	width: 100%
+}
+
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+/* Navigasi Utama */
+.navbarlist {
+	margin-left: -30px;
+}
+
+.input-search {
+	margin-right: -25px;
+}
+
+.navbarlist li:hover {
+	background-color: #dddddd;
+}
+/* Style sidebar left */
+.card {
+	padding: 0 6px;
+	float: left;
+	width: 24.9999%;
+	margin-top: 40px;
+}
+
+.galeri {
+	outline: 1px solid #f1f1f1;
+	box-shadow: 2px 2px 4px #f1f1f1;
+	margin: 16px;
+	height: 200px;
+}
+
+.galeri img {
+	width: 100%;
+	padding: 3px;
+	height: 200px;
+}
+
+.deskripsi {
+	text-align: center;
+	padding: 15px;
+}
+
+#label-pos {
+	position: relative;
+}
+
+.label-pos-item {
+	position: absolute;
+	right: -10px;
+	top: -5px;
+}
+
+.galeri:hover {
+	outline: 2px solid #ececec;
+	box-shadow: 4px 2px 4px #f1f1f1;
+}
+/* Style sidebar-right */
+
+/* Panel menu */
+#myPanel {
+	margin-top: 50px
+}
+
+/* Style tab-menu */
+#tab-menu {
+	/* background-color: #f2f2f2; */
+	margin: 40px 0 16px;
+}
+
+.list {
+	border-right: none;
+	border-left: none;
+	box-shadow: 2px 4px 8px #f1f1f1;
+}
+
+.list1 {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	box-shadow: 2px 4px 8px #f1f1f1;
+}
+
+.tab-menu-list {
+	margin-left: 60px;
+}
+/* style footer */
+#row5 {
+	margin-top: 40px;
+}
+
+#copy-right {
+	color: hsl(0, 0%, 14%);
+	padding: 16px 20px 0;
+}
+
+.menu-footer {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.menu-footer li {
+	float: right;
+}
+
+.menu-footer li a {
+	display: inline-block;
+	padding: 8px 16px;
+	color: #5e5e5e;
+	text-decoration: none;
+}
+
+@media ( max-width : 996px) {
+	.card {
+		padding: 0;
+		margin-top: 20px;
+		margin-right: 5px;
+		width: 48%;
+		margin-bottom: 20px;
+		/* background-color: #f2f2f2 */
+	}
+	.galeri img {
+		padding: 5px;
+	}
+	.deskripsi p {
+		font-size: 1em;
+		padding: 3px;
+	}
+	.tab-menu-list {
+		margin-left: 30px;
+	}
+	/* #row4-1 {
+        margin-bottom: 20px;
+      } */
+}
+
+@media ( max-width :768px) {
+	.logo {
+		width: 50%;
+		margin: auto;
+	}
+	.logo img {
+		padding: 10px;
+		width: 100%
+	}
+	.input-search {
+		margin-right: 0
+	}
+	.dropdown-menu li a {
+		background-color: #f1f1f1;
+		color: #dddddd;
+	}
+}
+
+@media ( max-width :500px) {
+	/* style resvonsive menu1 
+         jika menambahkan atribut di menu1-right 
+         maka ubah atribut widht default 159px 
+      */
+	.menu1-right {
+		width: 159px;
+		position: relative;
+		/* background-color: #f1f1f1; */
+		margin: auto;
+	}
+	.menu1-left {
+		/* background-color: blue; */
+		width: 211px;
+		margin: auto;
+	}
+	/* Akhir style menu1 */
+	.card {
+		float: none;
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.input-search {
+		margin-right: 0
+	}
+	#row5 {
+		margin-top: 10px;
+	}
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
