@@ -1,6 +1,7 @@
 package peripurnama.controller;
 
 import java.security.Principal;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,7 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 
-	@GetMapping("/")
+	@GetMapping("/index")
 	public String index(Model model) {
 		return "index";
 	}
