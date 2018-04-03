@@ -1,4 +1,5 @@
 peripurnama\dao\UserDao.class
+peripurnama\config\WebSecurityConfig.class
 peripurnama\service\UserDetailsServiceImp.class
 peripurnama\service\UserService.class
 peripurnama\model\Authorities.class
@@ -6,6 +7,7 @@ peripurnama\model\Alamat.class
 peripurnama\config\WebAppConfig.class
 peripurnama\model\User.class
 peripurnama\controller\HomeController.class
+peripurnama\config\SecurityWebApplicationInitializer.class
 peripurnama\service\UserServiceImp.class
 peripurnama\dao\UserDaoImp.class
 peripurnama\security\CustomHandlerExceptionResolver.class
